@@ -1,0 +1,56 @@
+.header {
+    background-color: #222;
+    height: 36px;
+    padding: 8px 8px 32px 16px;
+    
+  }
+  .logo.svg{
+      background-color: #ff7f7f;
+      height: 35px;
+      top: 0;
+      left: 0 ;
+  }
+  .rotate .logo.svg{
+      animation: rotation 8s linear infinite;
+  }
+  .container{
+      background-color: #ff9999;
+      padding: 8px 8px 8px 8px;
+      text-align: center;
+      font-size: 1rem;
+     
+    
+     
+  }
+  const SearchIcon {
+  width: 32px;
+  height: 32px;
+  }
+const MovieImage{
+  width: 48px;
+  height: 48px;
+  margin: 15px;
+}
+const SearchInput{
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  margin-left: 15px;
+}
+
+const MovieListContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 25px;
+  justify-content: space-evenly;;
+}
+const Placeholder{
+  width: 120px;
+  height: 120px;
+  margin: 150px;
+  opacity: 50%;
+}
